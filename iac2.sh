@@ -18,7 +18,7 @@ unzip main.zip
 
 echo "Copiando arquivos para o diretório padrão do Apache..."
 cd linux-site-dio-main
-cp -R * /var/www/html/
+sudo cp -R * /var/www/html/
 
 
 echo "Procedimento finalizado."
